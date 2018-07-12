@@ -1,0 +1,103 @@
+* { box-sizing: border-box; }
+
+:root {
+    --primaryColor: #F4B704;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-height: 100%;
+    /* vertical-align: middle; */
+}
+
+.full-width {
+    width: 100%;
+}
+
+.fixed-width {
+    width: 1200px;
+    margin: auto;
+}
+
+.col-1 {
+    width: calc(100% / 12);
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+
+[class^="col-"] {
+    /* height: 100px; */
+    /* background-color: #e6d1e1; */
+    float: left;
+    padding: 10px;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: var(--primaryColor);
+    text-decoration: none;
+}
+
+p {
+    color: #777;
+    line-height: 2em;
+    font-size: 14px;
+    padding-bottom: 2em;
+}
